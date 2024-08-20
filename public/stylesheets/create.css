@@ -1,0 +1,18 @@
+.concain {
+  width: 700px;
+  margin: auto;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+.row {
+  display: block;
+  height: 25px;
+  width: 700px;
+}
+
+.remark {
+  height: 50px;
+}

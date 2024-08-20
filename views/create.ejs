@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>添加记录</title>
+  <link rel="stylesheet" href="/stylesheets/reset.css">
+  <link rel="stylesheet" href="/stylesheets/create.css">
+</head>
+<body>
+  <div class="concain">
+    <h2>添加记录</h2>
+    <hr>
+    <div class="content">
+      <form action="/account" method="post">
+
+        <div class="form-group">
+          <label for="title">事项</label>
+          <input 
+          type="text" 
+          name="title"
+          class="row"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="time">发生时间</label>
+          <input 
+          type="date" 
+          name="time"
+          class="row"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="type">类型</label>
+          <select name="type" id="" class="row">
+            <option value="-1">支出</option>
+            <option value="1">收入</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="account">金额</label>
+          <input 
+          type="text" 
+          name="account"
+          class="row">
+        </div>
+
+        <div class="form-group">
+          <label for="remark">备注</label>
+          <textarea 
+          name="remark" id="" class="row remark"></textarea>
+        </div>
+
+        <button type="submit">添加</button>
+
+      </form>
+
+
+    </div>
+  </div>
+</body>
+</html>

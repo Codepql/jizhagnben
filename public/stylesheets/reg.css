@@ -1,0 +1,25 @@
+.concain {
+  width: 300px;
+  margin: auto;
+}
+.form-group {
+  margin: 30px 0;
+  position: relative;
+}
+.row {
+  width: 230px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+}
+.btnReg {
+  width: 300px;
+  height: 30px;
+  background-color: #4eb8c4;
+}
+.reg {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 6px;
+}
